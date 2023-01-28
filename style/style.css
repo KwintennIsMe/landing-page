@@ -77,7 +77,6 @@ ul {
     align-items: center;
     flex-direction: column;
     height: 400px;
-    background: orange;
 }
 
 .centerimages img{
@@ -134,7 +133,6 @@ ul {
 }
 
 .nearendcontain {
-    background: green;
     height: 350px;
     display: flex;
     justify-content: center;
@@ -158,9 +156,11 @@ ul {
 .actioncall h3 {
     margin-bottom: 5px;
     font-size: 20px;
+    margin-top: 0;
 }
 .actioncall p {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .signupbottom {
@@ -171,4 +171,15 @@ ul {
     color: white;
     border: 2px solid white;
     font-weight: bold;
+    nar
+}
+
+.footer {
+    height: 80px;
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
 }
