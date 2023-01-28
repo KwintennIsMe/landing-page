@@ -2,7 +2,13 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Ariel', 'Times New Roman', Times, sans-serif;
 }
+
+ a {
+    text-decoration: none;
+    color: inherit;
+ }
 .header {
     display: flex;
     background: #1F2937;
@@ -71,7 +77,7 @@ ul {
     align-items: center;
     flex-direction: column;
     height: 400px;
-    background: red;
+    background: orange;
 }
 
 .centerimages img{
@@ -85,21 +91,44 @@ ul {
     font-size: 36px;
     font-weight: 800px;
     color: #1F2937;
+    font-family: 'Playfair', 'Times New Roman', sans-serif;
 }
 
 .centerimages {
     display: flex;
     gap: 30px;
-    background: orange;
 }
 .centerimg {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 250px;
+    height: 275px;
     max-width: 160px;
-    background: green;
     align-items: center;
     justify-content: flex-start;
     text-align: center;
+    color: #1F2937;
+}
+
+.quotecontain {
+    height: 400px;
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainquote, .quoteauthor {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 450px;
+}
+
+.quoteauthor {
+    font-size: 25px;
+    font-weight: bold;
+    align-self: center;
+    margin-left: 450px;
 }
